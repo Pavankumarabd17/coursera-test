@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: "Times new roman";
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: coral;
 }
 
 h1 {
@@ -19,13 +19,13 @@ section {
 }
 
 section>h2 {
-    float: left;
+    float: right;
     border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid black;
     margin: 0;
     width: 230px;
     text-align: center;
-    font-style: times new roman;
+    font-style: italic;
     font-size: 24px;
     font-weight: bold;
     height: 45px;
@@ -41,9 +41,10 @@ section.corona>h2:hover {
 
 }
 
-x
+
 section.tendor>h2 {
-    background-color: #4f7acd;
+    color:white;
+    background-color: black;
 }
 section.tendor>h2:hover {
     background-color:grey ;
